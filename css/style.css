@@ -55,6 +55,10 @@ body {
     color: #ffffff;
 }
 
+.navigation-link:hover {
+    color: orange;
+}
+
 .basket {
     height: 51px;
     border-right: 1px solid #ffffff;
@@ -90,6 +94,10 @@ body {
     color: #ffffff;
 }
 
+.user-link:hover {
+    color: orange;
+}
+
 .user-link__tel {
     display: flex;
     align-items: center;
@@ -120,6 +128,11 @@ body {
     font-weight: 700;
     color: #ffffff;
     background-color: #FF7400;
+}
+
+.user-link__button:hover {
+    color: #000000;
+    background-color: #ffffff;
 }
 
 .header-promo {
@@ -186,4 +199,9 @@ body {
     font-weight: 700;
     color: #ffffff;
     background-color: #FF7400;
+}
+
+.header-promo__button:hover {
+    color: #000000;
+    background-color: #ffffff;
 }
