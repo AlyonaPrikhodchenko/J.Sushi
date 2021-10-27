@@ -11,13 +11,10 @@ li {
     list-style: none;
 }
 
-body {
-    background-color: bisque;
-}
-
 .container {
     max-width: 1138px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .header {
@@ -67,7 +64,7 @@ body {
 }
 
 .user-link__basket svg {
-   margin-top: 15px;
+   margin-top: 19px;
     
 }
 
@@ -204,4 +201,219 @@ body {
 .header-promo__button:hover {
     color: #000000;
     background-color: #ffffff;
+}
+
+.advantages {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 31px;
+    margin-top: -107px;
+    margin-bottom: 90px;
+}
+
+.advantages-block {
+    background-color: #FFFFFF;
+    box-shadow: 10px 10px 40px 20px rgba(0, 0, 0, 0.1);
+    max-width: 328px;
+    height: auto;
+    text-align: center;
+}
+
+.advantages-image {
+    margin-top: 48px;
+}
+
+.advantages-title {
+    margin: 0;
+    margin-top: 4px;
+    padding: 0;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    line-height: 30px;
+    font-weight: 400;
+    color: #2C2C2C;
+}
+
+.advantages-brown {
+    color: #BC9060;
+}
+
+.advantages-description {
+    margin: 0;
+    margin-top: 20px;
+    margin-bottom: 17px;
+    padding: 0;
+    padding-right: 30px;
+    padding-left: 30px;
+    font-family: "Tinos", serif;
+    font-size: 26px;
+    line-height: 29px;
+    font-weight: 400;
+    color: #656363;
+}
+
+.history {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 125px;
+    height: 498px;
+    margin-bottom: 122px;
+}
+
+.history-text {
+    max-width: 444px;
+}
+
+.main-title {
+    margin-top: 16px;
+    margin-bottom: 21px;
+    text-align: center;
+    font-family: "Tinos", serif;
+    font-size: 54px;
+    line-height: 62px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.main-span {
+    color: #D67E34;
+}
+
+.history-description {
+    margin: 0;
+    margin-bottom: 39px;
+    text-align: center;
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #656363;
+}
+
+.history-numbers {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.history-item {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Open Sans", serif;
+    font-size: 20px;
+    line-height: 27px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.history-number {
+    font-family: "Open Sans", serif;
+    font-size: 40px;
+    line-height: 54px;
+    font-weight: 400;
+    color: #BC9060;
+}
+
+.history-gallery {
+    position: relative;
+    max-width: 539px;
+    height: 498px;
+    overflow: hidden;
+}
+
+.history-design__box {
+    position: absolute;
+    left: 285px;
+    top: 34px;
+    width: 212px;
+    height: 164px;
+
+}
+.history-blue {
+    position: absolute;
+    left: 190px;
+    width: 255px;
+    height: 430px;
+
+}
+
+.history-gold {
+    position: absolute;
+    top: 64px;
+    width: 233px;
+    height: 300px;
+    box-shadow: 20px 0 30px 3px rgba(0, 0, 0, 0.5);
+}
+
+.history-light {
+    position: absolute;
+    top: 198px;
+    left: 285px;
+    width: 254px;
+    height: 300px;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+
+}
+
+.order {
+    position: relative;
+    height: 357px;
+    background-image: url(../img/file/promo-bg.jfif);
+    z-index: -2;
+}
+
+.order::after {
+      content: "";
+      display: block;
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      left: 0;
+      top: 0;
+      background-color: rgba(0, 0, 0, 0.85);
+      z-index:-1;
+}
+
+.order-block {
+    display: flex;
+    align-items: center;
+}
+
+.order-block__promo {
+    max-width: 601px;
+    margin-top: 80px;
+    margin-right: 331px;
+    margin-bottom: 104px;
+
+}
+
+.order-block__description {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: "Tinos", serif;
+    font-size: 52px;
+    line-height: 59px;
+    font-weight: 400;
+    color: #D67E34;
+}
+
+.order-block__price {
+    margin: 0;
+    font-family: "Open Sans", serif;
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.order-block__button {
+    padding: 14px 19px 14px 18px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: 700;
+    color: #ffffff;
+    background-color: #FF7400;
 }
